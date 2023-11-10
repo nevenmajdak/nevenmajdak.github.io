@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-      window.location.href = "https://github.com/nevenmajdak/nevenm/index.htm";
-    </script>
+    <title>Website NM</title>
   </head>
-<body>
+<body onLoad="triggerJS();">
+    <script>
+        function triggerJS(){
+        location.replace("https://github.com/nevenmajdak/nevenm/index.htm");
+        /*
+        location.assign("New_WebSite_Url");
+        //Use assign() instead of replace if you want to have the first page in the history (i.e if you want the user to be able to navigate back when New_WebSite_Url is loaded)
+        */
+        }
+    </script>
 <h1>DA DS DE</h1>
 <p>I'm hosted with GitHub Pages (pb).</p>
 </body>
