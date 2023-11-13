@@ -1,3 +1,5 @@
+/* View created for customers report*/
+
 CREATE VIEW CmpndAnalisys AS
     SELECT Analysis.Name AS Analysis,
            Compound.Name AS Compound,
