@@ -1,5 +1,4 @@
-/* Property of Waters Corp. */
-
+/* Waters Quanpedia is property of Waters corporation and is not subjected to any duplication, change or modification without their permission. */
 
 CREATE TABLE Analysis (AnalysisID integer, Name text, MethodID integer, Info text, Summary text, IonExportMode integer, PRIMARY KEY (AnalysisID))
 CREATE TABLE ColumnChemistry (ColumnChemistryID integer, Name text, GC logical, PRIMARY KEY (ColumnChemistryID))
