@@ -1,2 +1,2 @@
-SQL Server project
+SQL Server education project
 
